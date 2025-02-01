@@ -91,4 +91,46 @@ nav ul li a:hover {
 
 .skill-item {
     text-align: center;
-    width: 100px
+    width: 100px;
+    border: 2px solid #fff;
+    padding: 10px;
+    background: #111;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #fff;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background: #111;
+    border-top: 2px solid #fff;
+    color: #fff;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
+
+.slide-in {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.slide-in.visible {
+    transform: translateX(0);
+    opacity: 1;
+}
